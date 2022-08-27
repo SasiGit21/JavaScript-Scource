@@ -104,20 +104,150 @@ else{
     console.log('Height is undefined');
 }*/
 
-const age = 18;
+/*const age = 18;
 if(age === 18)
 console.log(`You just become an adult':D (strict)`);
 
 if (age == 18) console.log('You just become an adult :D (loose)');
 
-const favourite = prompt("What's your favourite number");
+const favourite =Number(prompt("What's your favourite number"));
  
 console.log(favourite);
-console.log(typeof favourite);
+console.log(typeof(favourite));
 
- if(favourite == 23 )
- {
-    console.log('Cool! 23 is an amazing number!');
+if(favourite === 23 )
+{
+   console.log('Cool! 23 is an amazing number!');
+}else if (favourite === 7)
+{
+    console.log('7 is also a cool number');
+}  else if(favourite === 9)
+{
+    console.log('9 is also a cool number');
+}
+else{
+    console.log('Number is not a 23 or 7 or 9');
+}
+
+if(favourite !==23 ) console.log('Why not 23?');
+*/
+
+/* const hasDriverLicense = true;
+const hadGoodVision = false;
+
+console.log(hasDriverLicense && hadGoodVision);
+console.log(hasDriverLicense || hadGoodVision);
+console.log(!hasDriverLicense );
+
+const shoulDrive = hasDriverLicense && hadGoodVision;
+
+// if(shoulDrive)
+// {
+//     console.log('Sasrah is able to drive!');
+// }
+// else 
+// {
+//     console.log('Someone else should drive');
+// }
+const isTired = true ;
+console.log(hasDriverLicense || hadGoodVision && isTired);
+
+if(hasDriverLicense && hadGoodVision && !isTired)
+{
+    console.log('Sarah is able to drive!');
+}
+else{
+    console.log('Someone else should drive');
+} */
+
+//with the highest average score score wins the a tropy
+
+/*//Test Data 1
+const dolphinsAverage = (97+112+80)/3;
+const koalasAverage = (97 +112 +50)/3;
+const minium = 100;
+console.log(dolphinsAverage);
+console.log(koalasAverage);
+
+if(dolphinsAverage > koalasAverage && dolphinsAverage>minium)
+{
+console.log("Dolphin is winner");
+}
+else if(koalasAverage > dolphinsAverage && koalasAverage >= minium ){
+    console.log(' Koalas is winner');
+}
+else if (dolphinsAverage === koalasAverage && dolphinsAverage>minium && koalasAverage>= minium)
+{
+    console.log("Its a draw Match");
+}
+else{
+    console.log('No one is a winner');
+}
+*/
+
+/*
+const day = 'thursday';
+switch(day)
+{
+    case 'monday':
+        console.log('Plan my course structure');
+        console.log('Go to coding metup');
+        break;
+    
+    case 'tuesday':
+         console.log('Prepare theory videos')
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write code examples');
+        break;
+    case 'friday':
+        console.log('Record videos');
+        break;
+    case 'saturday':
+    case 'sunday' :
+          console.log('Enjoy the weekend:D');
+          break;
+    default:
+        console.log('Not a valid day!');
+        break;
  }
 
- const favourite
+ if(day === 'monday')
+ {
+ }else if(day === 'tuesday')
+ {
+ }else if(day=== 'wednesday' || 'thursday')
+ {
+ }else if(day === 'friday')
+ {
+}else if(day === 'saturday')
+{
+}else if(day === 'sunday')
+{
+}else
+{
+    console.log('Not a day');
+}
+ 
+*/
+
+const age = 23;
+age>=18 ?console.log('I like to drink wine'):
+console.log('I like to drink water')
+const drink =age>=18 ? 'wine':'water';
+console.log(drink);
+
+let drink2;
+if(age>=18){
+ drink2 = 'wine';
+}else {
+    drink2 ='water'
+}
+console.log(drink2);
+console.log(`I linke to drink ${age >=18 ?'wine':'water'}`);
+
+const bill = 40;
+const tip = bill<=300 && bill>=50? bill*0.15:bill*0.2;
+console.log(`The bill was ${bill} the tip was ${tip} and the total value is ${bill+tip}`);
+console.log('tip: '+tip);
